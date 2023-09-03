@@ -1,0 +1,130 @@
+/* nav styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared styles  */
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+.section-tilte {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* shared styles end  */
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* header  */
+.header {
+  background-color: #fff8f3;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  background-image: url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-right: 10px;
+}
+
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner profile-pic {
+  width: 500px;
+}
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about  */
+.about {
+  margin: 130px 0;
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.about-info-contianer{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
