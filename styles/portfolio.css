@@ -31,6 +31,7 @@ body {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  margin: 30px 0px;
 }
 /* shared styles end  */
 
@@ -122,9 +123,19 @@ main{
   background: #fff8f3;
 }
 .about-info-contianer{
+    
     display: flex;
     justify-content: space-around;
 }
 .about-info{
+    
     text-align: center;
+    
+}
+.info-title{
+    font-weight: normal;
+    padding: 5px;
+}
+.info-description{
+    font-weight: 700;
 }
